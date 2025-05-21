@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useState } from 'react';
-import { FormNode } from '../types/types';
+import { FormNode } from './types';
 
 interface FormContextType {
   forms: FormNode[];
