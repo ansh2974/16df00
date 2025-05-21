@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
-import FormList from './components/FormList';
-import { useFormContext } from './context/FormContext';
-import { fetchForms } from './api/api';
+import FormList from './FormList';
+import { useFormContext } from './FormContext';
+import { fetchForms } from './api';
 import './styles/App.css';
 
 const App: React.FC = () => {
