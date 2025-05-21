@@ -1,4 +1,4 @@
-import { FormNode } from '../types/types';
+import { FormNode } from './types';
 
 export const getDirectDependencies = (formId: string, nodes: FormNode[], edges: any[]) => {
   return edges.filter((edge) => edge.target === formId).map((edge) => edge.source);
